@@ -15,7 +15,7 @@ public class FindingUser {
 
         int USER_ID = 2;
         User u = session.load(User.class, USER_ID);
-        System.out.println("Fullname: " + u.getFullname());
+        System.out.println("Fullname: " + u.getFullName());
         System.out.println("Email: " + u.getEmail());
         System.out.println("password: " + u.getPassword());
 

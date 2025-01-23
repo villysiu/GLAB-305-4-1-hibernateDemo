@@ -14,7 +14,7 @@ public class UpdatingUser {
         User u = new User();
         u.setId(3);
         u.setEmail("mhaseeb@perscholas");
-        u.setFullname("M haseeb");
+        u.setFullName("M haseeb");
         u.setPassword("123456");
         session.merge(u);
         session.getTransaction().commit();
